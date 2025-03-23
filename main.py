@@ -10,6 +10,7 @@ import mitmcert
 import append_proxy  
 import os
 import time
+import shutils
 
 # Type URL to Analyze
 url = "https://www.ciphervanguard.com/"
@@ -47,3 +48,11 @@ with open(filename, "a") as file:
 append_proxy.append_proxy_output(filename)
 
 print(f"Information has been saved in {filename}")
+
+destination_path = f"/home/scpuser/files/{filename}"
+
+try:
+    shutil.move(filename, destination_path)
+    print(f"File has successfully been moved to scpuser workspace {destination_path}")
+except Exception as e:
+    print(f"File has failed to move {e}")
