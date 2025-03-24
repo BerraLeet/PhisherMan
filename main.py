@@ -10,7 +10,7 @@ import mitmcert
 import append_proxy  
 import os
 import time
-import shutils
+import shutil
 
 # Type URL to Analyze
 url = "https://www.ciphervanguard.com/"
