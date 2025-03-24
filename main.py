@@ -49,7 +49,7 @@ append_proxy.append_proxy_output(filename)
 
 print(f"Information has been saved in {filename}")
 
-destination_path = f"/home/vagrantPhisherMan/outputs/{filename}"
+destination_path = f"/home/vagrant/PhisherMan/outputs/{filename}"
 
 try:
     shutil.move(filename, destination_path)
