@@ -49,10 +49,10 @@ append_proxy.append_proxy_output(filename)
 
 print(f"Information has been saved in {filename}")
 
-destination_path = f"/home/scpuser/files/{filename}"
+destination_path = f"/home/vagrantPhisherMan/outputs/{filename}"
 
 try:
     shutil.move(filename, destination_path)
-    print(f"File has successfully been moved to scpuser workspace {destination_path}")
+    print(f"File has successfully been moved to outputs {destination_path}")
 except Exception as e:
     print(f"File has failed to move {e}")
