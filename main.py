@@ -11,6 +11,7 @@ import append_proxy
 import os
 import time
 import shutil
+import regex 
 
 # Type URL to Analyze
 url = "https://www.ciphervanguard.com/"
@@ -45,6 +46,10 @@ with open(filename, "a") as file:
     file.write("\n[BROWSER]\n")
     browser.run_browser(url, file)
 
+# Clean up proxy_output.txt before appending to file
+regex.clean_response_blocks()
+
+# Append proxy log to same file
 append_proxy.append_proxy_output(filename)
 
 print(f"Information has been saved in {filename}")
