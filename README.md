@@ -24,7 +24,7 @@ PhisherMan performs static inspection of a target URL and extracts:
   - Meta description and keywords  
   - JavaScript tags  
   - Links and iframes  
-- Proxy output with full HTTP request and response logging
+- Proxy output with full unencrypted HTTP request and response logging
 
 ### Dynamic Analysis
 
