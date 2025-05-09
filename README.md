@@ -1,5 +1,6 @@
 # PhisherMan
 ![Phisheranlogo](https://github.com/user-attachments/assets/51669f17-f6b3-4780-ae5b-2a2732021af8)
+
 PhisherMan is a simple phishing analysis toolkit that performs both static and dynamic analysis of a given URL. It collects key information about web pages, certificates, domains, redirects, and browser-level behavior, while also logging detailed network activity and save data in a clean format for futher analysis, example with LLMs or manually.
 
 **Should be used in a secure environment!**
