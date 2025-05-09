@@ -44,10 +44,11 @@ All extracted data is saved in a clearly formatted `.txt` file for easy review a
 ---
 
 ## prequisities
-Consider VM or any kind of secure environment where you can execute phising links safely.
-desktop-enrionment, get chrome-stable, chromedriver-py
-git (for pulling safely)
-Selenium
+- Consider VM or any kind of secure environment where you can execute phising links safely.
+- desktop-enrionment, get chrome-stable, chromedriver-py
+- git (for pulling safely)
+- Python3
+- Selenium
 
 ---
 ## How to Run
