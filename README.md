@@ -39,7 +39,7 @@ The tool also runs the target webpage inside a real browser (via `browser.py`), 
 
 ## Output
 
-All extracted data is saved in a clearly formatted `.txt` file for easy review and further analysis. The txt file will inherit extracted name of domain example: `domainname.com.txt`
+All extracted data is saved in a clearly formatted `.txt` file for easy review and further analysis. The txt file will inherit extracted name of domain example: `domainname.txt`
 
 ---
 
